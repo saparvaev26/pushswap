@@ -1,6 +1,7 @@
-# cmake_minimum_required(VERSION <specify CMake version here>)
+cmake_minimum_required(VERSION 3.15)
 project(PushSwap C)
 
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD 11)
 
-add_executable(PushSwap main.c)
+add_executable(PushSwap
+        main.c srcs/swap.c)
