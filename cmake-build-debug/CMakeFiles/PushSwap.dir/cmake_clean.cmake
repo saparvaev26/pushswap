@@ -1,10 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/PushSwap.dir/main.c.obj"
-  "CMakeFiles/PushSwap.dir/srcs/swap.c.obj"
-  "PushSwap.exe"
-  "PushSwap.exe.manifest"
+  "CMakeFiles/PushSwap.dir/main.c.o"
+  "CMakeFiles/PushSwap.dir/srcs/ft_data.c.o"
+  "CMakeFiles/PushSwap.dir/srcs/ft_push.c.o"
+  "CMakeFiles/PushSwap.dir/srcs/ft_stack.c.o"
+  "CMakeFiles/PushSwap.dir/srcs/ft_swap.c.o"
+  "PushSwap"
   "PushSwap.pdb"
-  "libPushSwap.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/sapar/Desktop/School/PushSwap/main.c
+/Users/scash/Desktop/PushSwap/includes/push_swap.h
+stdlib.h
+-
+unistd.h
+-
+stdio.h
+-
+
+/Users/scash/Desktop/PushSwap/main.c
+includes/push_swap.h
+/Users/scash/Desktop/PushSwap/includes/push_swap.h
 stdio.h
 -
 
