@@ -17,12 +17,12 @@ int main()
 
     data = ft_data_create(arg);
     sa(data);
-    pb(data);
-    pb(data);
-    pb(data);
+    rra(data);
 
     printf("A : ");
     print_stack(data->A);
     printf("\nB : ");
     print_stack(data->B);
+ //   ft_data_free(data);
+    return (0);
 }

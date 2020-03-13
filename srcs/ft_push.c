@@ -2,7 +2,7 @@
 
 void    ft_push(t_stack **rest, t_stack **dest)
 {
-    int num;
+    intmax_t    num;
 
     if(*rest)
     {

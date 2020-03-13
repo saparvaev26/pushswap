@@ -18,3 +18,14 @@ t_data  *ft_data_create(char **arg)
     }
     return (data);
 }
+
+void    ft_data_free(t_data *data)
+{
+    t_stack *tmp;
+
+    while(data->A)
+        ft_stack_del_top(&data->A);
+    while(data->B)
+        ft_stack_del_top(&data->B);
+    free(data);
+}
